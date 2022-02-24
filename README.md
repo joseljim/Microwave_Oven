@@ -33,4 +33,4 @@ Microwave oven developed on the NXP KL25Z board using several peripherals. This 
 
 ## Video
 
-Project demostration [Youtube video](https://youtu.be/nM7_EuxoMyk).
+Project demostration [Youtube video](https://youtu.be/nM7_EuxoMyk)
