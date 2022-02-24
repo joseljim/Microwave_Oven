@@ -3,8 +3,8 @@ Microwave oven developed on the NXP KL25Z board using several peripherals. This 
 
 ## Team
 
-* José Luis Jiménez Arévalo @joseljim
-* Eduardo García Olmos @EDUARDOGO
+* José Luis Jiménez Arévalo [joseljim](https://github.com/joseljim)
+* Eduardo García Olmos [EDUARDOGO](https://github.com/EGO72)
 
 ## Schematic
 
