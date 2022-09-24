@@ -57,7 +57,7 @@ void pwm_init(void){
 	TPM1->SC = 0; /* disable timer */
 	TPM1->CONTROLS[0].CnSC = 0x20 | 0x08; /* edge-aligned, pulse high */
 	TPM1->CONTROLS[1].CnSC = 0x20 | 0x08; /* edge-aligned, pulse high */
-	TPM1->MOD = 545; /* Set up register mod for 30Hz */
+	TPM1->MOD = 545; /* Set up register modulo for 30Hz */
 	TPM1->SC = 0x08; /* enable TPM1 */
 }
 
