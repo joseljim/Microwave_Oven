@@ -252,7 +252,7 @@ void LCD_data(unsigned char data)
 void writeCustomChars1(void){
     LCD_command(0x40);
 
-    //Reloj 1 son 4 seguidos
+    // Clock 1 (composed of 4)
     LCD_data(0b11111);
     LCD_data(0b10000);
     LCD_data(0b01000);
@@ -289,7 +289,7 @@ void writeCustomChars1(void){
     LCD_data(0b11001);
     LCD_data(0b11111);
 
-    //Reloj 2
+    // Clock 2
     LCD_data(0b11111);
     LCD_data(0b10000);
     LCD_data(0b01000);
@@ -330,7 +330,7 @@ void writeCustomChars1(void){
 void writeCustomChars2(void){
     LCD_command(0x40);
 
-    //Plato 1 son 4 seguidos
+    // Dish (composed of 4)
     LCD_data(0b00000);
     LCD_data(0b00010);
     LCD_data(0b00100);
@@ -367,7 +367,7 @@ void writeCustomChars2(void){
     LCD_data(0b11110);
     LCD_data(0b11100);
 
-    //Plato 2
+    // Dish 2
     LCD_data(0b00000);
     LCD_data(0b00000);
     LCD_data(0b00100);
